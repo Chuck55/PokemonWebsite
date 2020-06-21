@@ -1,0 +1,161 @@
+{
+    "Shiny": [
+        {
+            "pokemonName": "Pikachu",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Watermelon"
+        },
+        {
+            "pokemonName": "Poliwag",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Watermelon"
+        },
+        {
+            "pokemonName": "Alakazam",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Watermelon"
+        },
+        {
+            "pokemonName": "Onix",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Watermelon"
+        },
+        {
+            "pokemonName": "Seadra",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Watermelon"
+        },
+        {
+            "pokemonName": "Tauros",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Watermelon"
+        },
+        
+        {
+            "pokemonName": "Eevee",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Watermelon"
+        },
+        {
+            "pokemonName": "Misdreavus",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Watermelon"
+        },
+        {
+            "pokemonName": "Gligar",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Watermelon"
+        },
+        {
+            "pokemonName": "Sneasel",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Watermelon"
+        },
+        {
+            "pokemonName": "Swinub",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Watermelon"
+        },
+        {
+            "pokemonName": "Raikou",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Watermelon"
+        },
+        {
+            "pokemonName": "Suicune",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Watermelon"
+        },
+        {
+            "pokemonName": "Treecko",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Watermelon"
+        },
+        {
+            "pokemonName": "Mudkip",
+            "numberOfPokemon": "4",
+            "ownerOfPokemon": "Watermelon"
+        },
+        {
+            "pokemonName": "Ralts",
+            "numberOfPokemon": "6",
+            "ownerOfPokemon": "Watermelon"
+        },
+        {
+            "pokemonName": "Kirlia",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Watermelon"
+        },
+        {
+            "pokemonName": "Gardevoir",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Watermelon"
+        },
+        {
+            "pokemonName": "Slakoth",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Watermelon"
+        },
+        {
+            "pokemonName": "Aaron",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Watermelon"
+        },
+        {
+            "pokemonName": "Spoink",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Watermelon"
+        },
+        {
+            "pokemonName": "Trapinch",
+            "numberOfPokemon": "4",
+            "ownerOfPokemon": "Watermelon"
+        },
+        {
+            "pokemonName": "Flygon",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Watermelon"
+        },
+        {
+            "pokemonName": "Duskull",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Watermelon"
+        },
+        {
+            "pokemonName": "Rayquaza",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Watermelon"
+        },
+        {
+            "pokemonName": "Turtwig",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Watermelon"
+        },
+        {
+            "pokemonName": "Chimchar",
+            "numberOfPokemon": "3",
+            "ownerOfPokemon": "Watermelon"
+        },
+        {
+            "pokemonName": "Infernape",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Watermelon"
+        },
+        {
+            "pokemonName": "Piplup",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Watermelon"
+        },
+        {
+            "pokemonName": "Empoleon",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Watermelon"
+        },
+        {
+            "pokemonName": "Gallade",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Watermelon"
+        }
+    ],
+    "owner": "Watermelon"
+}

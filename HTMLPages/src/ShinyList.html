@@ -1,0 +1,144 @@
+<html>
+<head>
+  <title> Shiny Pokemon </title>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"> </script>
+<link rel="stylesheet" type="text/css" href="/src/stylesPages.css">
+<link rel="stylesheet" type="text/css" href="/src/dropdown.css">
+<script src="/scrollbar.js"> </script>
+
+<script type="text/javascript">
+  function addStuff(name) {
+    var xhttp = new XMLHttpRequest();
+    xhttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+          var data = JSON.parse(this.responseText);
+          console.log(data.owner);
+          if (data.owner == "Kyue") {      
+            addTable(data, "Kyue55_Pokemon");
+          } else if (data.owner == "BlackestNight") {
+            addTable(data, "Blackest_Night_Pokemon");
+          } else if (data.owner == "BrightestDawn") {
+            addTable(data, "Brightest_Dawn_Pokemon");
+          } else if (data.owner == "Watermelon") {
+            addTable(data, "Watermelon_Pokemon");
+          }
+        }
+    };
+    xhttp.open("POST", "/getJSON", true);
+    xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+    var stuff = "fname=" + name;
+    xhttp.send(stuff);
+  }
+  addStuff("KyueShiny");
+  addStuff("BlackestShiny");
+  addStuff("WatermelonShiny");
+  addStuff("BrightestShiny");
+
+    function addTable(data, id) {
+      var i = 0;
+      for(i = 0; i < data.Shiny.length; i++) {
+        var name = JSON.stringify(data.Shiny[i].pokemonName).slice(1,-1);
+        var number = JSON.stringify(data.Shiny[i].numberOfPokemon).slice(1,-1);
+        var owner = JSON.stringify(data.Shiny[i].ownerOfPokemon).slice(1,-1);
+        if (i%2 == 1) {
+          var tblRow = "<tr style=background-color:#ddd;>" + "<td>" + name + "</td>" + "<td>" + number + "</td>" + "</tr>";
+        } else {
+          var tblRow = "<tr style=background-color:#FFF0F5;>" + "<td>" + name + "</td>" + "<td>" + number + "</td>" + "</tr>";
+        }
+       document.getElementById(id).innerHTML += tblRow;
+      }
+    }
+</script>
+</head>
+  <body class = "background_color">
+    <div id = "navbar" class = "main_header font">Shiny Pokemon
+      <table align = "center">
+        <thead>
+          <th><a class = "link_styles" href="/src/MainPage.html">Main Page</a></th>
+          <th><div class = "dropdown">
+            <button class="dropbtn_link font">Pokemon Owned</button>
+            <div class="dropdown-content_link font">
+              <a href="/PokemonList">Excellents</a>
+              <a href="/ShinyList">Shinies</a>
+              <a href="/100IV">100IV</a>
+            </div>
+          </div>
+        </th>
+        <th>
+          <div class="dropdown">
+            <button class="dropbtn_link font">Other</button>
+            <div class="dropdown-content_link font">
+              <a href="/logout">Logout</a>
+              <a href="/aboutMe">About Me</a>
+              <a href="/guessing">Guessing Game</a>
+            </div>
+          </div>
+        </th>
+        <th><a class = "link_styles" href="/src/communityDays.html">Community Day Events</a></th>  
+        <thead>
+      </table>
+    </div>
+  
+    <table class = "content">
+      <td valign = "top">
+        <h2 class = "font second_header">Kyue55</h2>
+          <table id = "Kyue55_Pokemon" class = "pokemon_table font">
+            <thead>
+              <th>Pokemon</th>
+              <th>Number of Shinies</th>
+            </thead>
+            <tbody>
+            </tbody>
+          </table>
+      <td>
+
+      <td valign = "top">
+        <h2 class = "font second_header">Watermelon</h2>
+          <table id = "Watermelon_Pokemon" class = "pokemon_table font">
+            <thead>
+              <th>Pokemon</th>
+              <th>Number of Shinies</th>
+            </thead>
+            <tbody>
+            </tbody>
+          </table>
+        </td>
+    
+      <td valign = "top">
+        <h2 class = "font second_header">Brightest Dawn</h2>
+          <table id = "Brightest_Dawn_Pokemon" class = "pokemon_table font">
+            <thead>
+              <th>Pokemon</th>
+              <th>Number of Shinies</th>
+            </thead>
+            <tbody>
+            </tbody>
+          </table>
+      </td>
+
+      <td valign = "top">
+        <h2 class = "font second_header">Blackest Night</h2>
+          <table id = "Blackest_Night_Pokemon" class = "pokemon_table font"> 
+            <thead>
+              <th>Pokemon</th>
+              <th>Number of Shinies</th>
+            </thead>
+            <tbody>
+            </tbody>
+          </table>
+      </td>
+    </table>
+    <div class = "ending_page">
+      <div class = "social_media_links">
+        <a href="https://github.com/Chuck55" target="_blank"> <img id = "github" alt = "github" src = "../pictures/github-logo.png"  class = "social_media_pics"> </a>
+        <a href="https://www.linkedin.com/in/kyle-meng-2757b7192/" target="_blank"> <img id = "Linkedin" alt = "Linkedin" src = "../pictures/Linkedin.jfif"  class = "social_media_pics"> </a>
+        <a href="https://www.facebook.com/kyle.meng.378/" target="_blank"> <img id = "facebook" alt = "facebook" src = "../pictures/Facebook_icon.png"  class = "social_media_pics"> </a>
+      </div>
+    </div>
+    <!--#include virtual="/PokemonList.html" -->
+
+    <div>
+      ©2020 Kyle Meng. All Rights Reserved
+    </div>
+  </body>
+</html>

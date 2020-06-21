@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Login </title>
+        <meta charset="UTF-8">	
+        <link rel="stylesheet" type="text/css" href="/src/stylesPages.css">
+        <link rel="stylesheet" type="text/css" href="/src/dropdown.css">
+        <meta name="google-signin-scope" content="profile email">
+        <meta name="google-signin-client_id" content="1079061366547-7p44k0jp34b3np0ev9b0eppb1f9t7tdq.apps.googleusercontent.com">
+        <script src="https://apis.google.com/js/platform.js" async defer></script>
+        <script type="text/javascript"></script>
+        <script src="/googleLogin.js"> </script>
+
+    </head>
+    <body class = "background_color">
+        <h1 class = "main_header font"> Login</h1>
+        <br><br><br>
+        <form class="login_box" name="login" >
+            <div id="error" class = "error_red submissionFormat font">Incorrect Username or Password</div>
+            <div id="error1" class = "error_red submissionFormat font">Missing Username</div>
+            <div id="error2" class = "error_red submissionFormat font">Missing Password </div>
+            <div id="error3" class = "error_red submissionFormat font">Missing Password and Username</div>
+            <div>
+                <label for="uname" class = "text font"><b>Username:</b></label>
+                <br>
+                
+                <input type="text" placeholder="Enter Username" name="uname" class = "loginForm" required>
+        </div>
+                <br>
+                <br>
+                <div>
+                    <label for="psw" class = "text font"><b>Password</b></label>
+                    <br>
+                    <input type="password" placeholder="Enter Password" name="psw" class = "loginForm" required>
+            </div>
+                    <br>
+                    <input type="button" class = "loginForm font" value = "LOGIN" onclick = "getStuff(uname.value, psw.value)">
+        </form>
+        <div class="g-signin2" data-onsuccess="onSignIn" data-theme="dark"></div>
+        <div class = "ending_page">
+            <div class = "social_media_links">
+              <a href="https://github.com/Chuck55" target="_blank"> <img id = "github" alt = "github" src = "../pictures/github-logo.png"  class = "social_media_pics"> </a>
+              <a href="https://www.linkedin.com/in/kyle-meng-2757b7192/" target="_blank"> <img id = "Linkedin" alt = "Linkedin" src = "../pictures/Linkedin.jfif"  class = "social_media_pics"> </a>
+              <a href="https://www.facebook.com/kyle.meng.378/" target="_blank"> <img id = "facebook" alt = "facebook" src = "../pictures/Facebook_icon.png"  class = "social_media_pics"> </a>
+            </div>
+            <div>
+                ©2020 Kyle Meng. All Rights Reserved
+            </div>
+          </div>
+        <script type="text/javascript">
+            var xhttp = new XMLHttpRequest();
+            xhttp.onreadystatechange = function() {
+                if (this.readyState == 4 && this.status == 200) {
+                    var data = this.responseText; 
+                    data = JSON.parse(data);
+                    evaluate(data);
+                }
+            };
+            
+            function evaluate(data) {
+                if(data.Stuff == true) {
+                    location.replace("/MainPage");
+                } else {
+                    document.getElementById("error").style.display = "block";
+                }
+            }
+            function reset() {
+                document.getElementById("error").style.display = "none";
+                document.getElementById("error1").style.display = "none";
+                document.getElementById("error2").style.display = "none";
+                document.getElementById("error3").style.display = "none";
+            }
+            function getStuff(name, password){
+                reset();
+                if (!name && !password) {
+                    document.getElementById("error3").style.display = "block";
+                } else if (!name) {
+                document.getElementById("error1").style.display = "block";
+                } else if (!password) {
+                    document.getElementById("error2").style.display = "block";
+                } else {
+                    xhttp.open("POST", "/sendLoginDetails");
+                    xhttp.setRequestHeader("Content-Type", "application/json");
+                    xhttp.send(JSON.stringify({Username: name, Password: password}));
+                }	
+            }
+        </script>
+    </body>
+</html>

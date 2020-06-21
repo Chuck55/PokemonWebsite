@@ -1,0 +1,50 @@
+{
+    "IV": [
+        {
+            "pokemonName": "Spearow",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Blackest Night"
+        },
+        {
+            "pokemonName": "Seedot",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Blackest Night"
+        },
+        {
+            "pokemonName": "Tangela",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Blackest Night"
+        },
+        {
+            "pokemonName": "Gible",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Blackest Night"
+        },
+        {
+            "pokemonName": "Machamp",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Blackest Night"
+        },
+        {
+            "pokemonName": "Croagunk",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Blackest Night"
+        },
+        {
+            "pokemonName": "Drowzee",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Blackest Night"
+        },
+        {
+            "pokemonName": "Chimchar",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Blackest Night"
+        },
+        {
+            "pokemonName": "Spinda",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Blackest Night"
+        }
+    ],
+    "owner": "BlackestNight"
+}

@@ -1,0 +1,143 @@
+td[text="Kyue55"]{
+	text-decoration : underline;
+}
+.font {
+  font-family:"Comic Sans MS", cursive, sans-serif;
+}
+table {
+  margin: 0 auto; /* or margin: 0 auto 0 auto */
+}
+.main_header {
+  text-align: left;
+  background-image: url('../pictures/header.png');
+  color: white;
+  height: 3.5em;
+  padding: 1.4em;
+  position: relative;
+  top:-1.66em;
+  font-size: 125%;
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+} 
+.second_header {
+  height: 3.33em;
+  white-space: nowrap;
+  text-align: center;
+}	
+
+.info_bio {
+  padding:2em;
+  width:10%;
+  word-wrap: break-word;
+}
+
+.bio_table {
+  width: 50%;
+}
+.Family_Pic {
+  width: 80%;
+  height: auto;
+}
+
+.champ_portrait {
+  width:85%;
+  height:auto;
+}
+
+.social_media_pics {
+  width: 10%;
+  height:auto;
+  margin:30px;
+}
+
+.social_media_links {
+  width: 30%;
+}
+
+.ending_page {
+  border-top: 1px solid #5F9EA0;
+  margin-top: 100px;
+  min-height: 100px;
+  width: 100%;
+}
+
+.link_styles {
+  min-width: 30%;
+  background-color: transparent;
+  padding: 1.1em; 
+  font-size: 16px;
+  text-decoration: none;
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  border-bottom: 4px solid transparent;
+}
+
+.link_styles:hover {
+  border-bottom: 4px solid black;
+}
+
+.pokemon_table_location tr:nth-child(even) {
+  background-color:  #FFF0F5;
+}
+.pokemon_table thead, .pokemon_table_location tr:nth-child(odd) {
+  background-color:  #ddd;
+  padding: 8px;  
+}
+.pokemon_table td, .pokemon_table th, .pokemon_table_location td, .pokemon_table_location th{
+  border: 1px solid #ddd;
+  padding: .66em;  
+}
+
+.background_color {
+	background-color : #ADD8E6 ;
+}
+
+.loginForm {
+	width: 40%;
+}
+.login_box {
+  text-align: center;
+  color:black;
+  font-size: 19px;
+}
+.submissionFormat{
+  display: none;
+  text-align: center;
+  width:initial;
+  font-weight: bolder;
+  margin:0 auto;
+}
+ 
+.error_red {
+	color: #A52A2A;
+}
+.correct_green {
+	color: green;
+}
+.hint_blue {
+  color:royalblue;
+}
+
+#pokemonpic {
+  display:block;
+  margin:0 auto;
+  height : 8em;
+}
+#guess {
+  display:block;
+  width:20%;
+  margin:0 auto;
+}
+
+.guessingDiv {
+  width: 75%;
+  margin:0 auto;
+}
+
+.guessing_link_styles {
+  display:block;
+  margin:0 auto;
+  padding: 1.1em; 
+  width: 5em;
+  border-radius: 2em;
+  box-shadow: 2px 2px black;
+  background-color: white;
+}

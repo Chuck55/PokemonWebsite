@@ -1,0 +1,177 @@
+{
+    "Shiny": [
+        {
+            "pokemonName": "Charmander",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Brightest Dawn"
+        },
+        {
+            "pokemonName": "Oddish",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Brightest Dawn"
+        },
+        {
+            "pokemonName": "Gloom",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Brightest Dawn"
+        },
+        {
+            "pokemonName": "Abra(Alolan)",
+            "numberOfPokemon": "5",
+            "ownerOfPokemon": "Brightest Dawn"
+        },
+        {
+            "pokemonName": "Kadabra",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Brightest Dawn"
+        },
+        {
+            "pokemonName": "Alakazam",
+            "numberOfPokemon": "3",
+            "ownerOfPokemon": "Brightest Dawn"
+        },
+        {
+            "pokemonName": "Geodude",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Brightest Dawn"
+        },
+        {
+            "pokemonName": "Shellder",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Brightest Dawn"
+        },
+        {
+            "pokemonName": "Onix",
+            "numberOfPokemon": "2",
+            "ownerOfPokemon": "Brightest Dawn"
+        },
+        {
+            "pokemonName": "Drowzee",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Brightest Dawn"
+        },
+        {
+            "pokemonName": "Exeggcute",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Brightest Dawn"
+        },
+        {
+            "pokemonName": "Exeggutor(Alolan)",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Brightest Dawn"
+        },
+        {
+            "pokemonName": "Koffing",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Brightest Dawn"
+        },
+        {
+            "pokemonName": "Rhydon",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Brightest Dawn"
+        },
+        {
+            "pokemonName": "Scyther",
+            "numberOfPokemon": "2",
+            "ownerOfPokemon": "Brightest Dawn"
+        },
+        {
+            "pokemonName": "Magikarp",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Brightest Dawn"
+        },
+        {
+            "pokemonName": "Eevee",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Brightest Dawn"
+        },
+        {
+            "pokemonName": "Totodile",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Brightest Dawn"
+        },
+        {
+            "pokemonName": "Cleffa",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Brightest Dawn"
+        },
+        {
+            "pokemonName": "Aipom",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Brightest Dawn"
+        },
+        {
+            "pokemonName": "Steelix",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Brightest Dawn"
+        },
+        {
+            "pokemonName": "Scizor",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Brightest Dawn"
+        },
+        {
+            "pokemonName": "Torchic",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Brightest Dawn"
+        },
+        {
+            "pokemonName": "Volbeat",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Brightest Dawn"
+        },
+        {
+            "pokemonName": "Trapinch",
+            "numberOfPokemon": "4",
+            "ownerOfPokemon": "Brightest Dawn"
+        },
+        {
+            "pokemonName": "Flygon",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Brightest Dawn"
+        },
+        {
+            "pokemonName": "Baltoy",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Brightest Dawn"
+        },        {
+            "pokemonName": "Feebas",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Brightest Dawn"
+        },        {
+            "pokemonName": "Turtwig",
+            "numberOfPokemon": "3",
+            "ownerOfPokemon": "Brightest Dawn"
+        },        {
+            "pokemonName": "Torterra",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Brightest Dawn"
+        },
+        {
+            "pokemonName": "Chimchar",
+            "numberOfPokemon": "3",
+            "ownerOfPokemon": "Brightest Dawn"
+        },
+        {
+            "pokemonName": "Infernape",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Brightest Dawn"
+        },
+        {
+            "pokemonName": "Piplup",
+            "numberOfPokemon": "2",
+            "ownerOfPokemon": "Brightest Dawn"
+        },
+        {
+            "pokemonName": "Buneary",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Brightest Dawn"
+        },
+        {
+            "pokemonName": "Darkrai",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Brightest Dawn"
+        }
+    ],
+    "owner": "BrightestDawn"
+}

@@ -1,0 +1,415 @@
+{
+    "Shiny": [
+        {
+            "pokemonName": "Pidgey",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Kyue55"
+        },
+        {
+            "pokemonName": "Ekans",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Kyue55"
+        },
+        {
+            "pokemonName": "Nidoqueen",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Kyue55"
+        },
+        {
+            "pokemonName": "Venonat",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Kyue55"
+        },
+        {
+            "pokemonName": "Poliwag",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Kyue55"
+        },
+        {
+            "pokemonName": "Abra",
+            "numberOfPokemon": "33",
+            "ownerOfPokemon": "Kyue55"
+        },
+        {
+            "pokemonName": "Alakazam",
+            "numberOfPokemon": "9",
+            "ownerOfPokemon": "Kyue55"
+        },
+        {
+            "pokemonName": "Geodude(Alolan)",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Kyue55"
+        },
+        {
+            "pokemonName": "Golem(Alolan)",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Kyue55"
+        },
+        {
+            "pokemonName": "Farfetch'd",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Kyue55"
+        },
+        {
+            "pokemonName": "Seel",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Kyue55"
+        },
+        {
+            "pokemonName": "Shellder",
+            "numberOfPokemon": "3",
+            "ownerOfPokemon": "Kyue55"
+        },
+        {
+            "pokemonName": "Cloyster",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Kyue55"
+        },
+        {
+            "pokemonName": "Gengar",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Kyue55"
+        },
+        {
+            "pokemonName": "Exeggutor",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Kyue55"
+        },
+        {
+            "pokemonName": "Rhyhorn",
+            "numberOfPokemon": "4",
+            "ownerOfPokemon": "Kyue55"
+        },
+        {
+            "pokemonName": "Rhydon",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Kyue55"
+        },
+        {
+            "pokemonName": "Horsea",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Kyue55"
+        },
+        {
+            "pokemonName": "Scyther",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Kyue55"
+        },
+        {
+            "pokemonName": "Pinsir",
+            "numberOfPokemon": "2",
+            "ownerOfPokemon": "Kyue55"
+        },
+        {
+            "pokemonName": "Tauros",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Kyue55"
+        },
+        {
+            "pokemonName": "Eevee",
+            "numberOfPokemon": "3",
+            "ownerOfPokemon": "Kyue55"
+        },
+        {
+            "pokemonName": "Jolteon",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Kyue55"
+        },
+        {
+            "pokemonName": "Mewtwo",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Kyue55"
+        },        
+        {
+            "pokemonName": "Cyndaquil",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Kyue55"
+        },        
+        {
+            "pokemonName": "Steelix",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Kyue55"
+        },        
+        {
+            "pokemonName": "Snubble",
+            "numberOfPokemon": "3",
+            "ownerOfPokemon": "Kyue55"
+        },
+        {
+            "pokemonName": "Granbull",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Kyue55"
+        },
+        {
+            "pokemonName": "Sneasel",
+            "numberOfPokemon": "3",
+            "ownerOfPokemon": "Kyue55"
+        },
+        {
+            "pokemonName": "Swinub",
+            "numberOfPokemon": "5",
+            "ownerOfPokemon": "Kyue55"
+        },
+        {
+            "pokemonName": "Piloswine",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Kyue55"
+        },
+        {
+            "pokemonName": "Skarmory",
+            "numberOfPokemon": "4",
+            "ownerOfPokemon": "Kyue55"
+        },
+        {
+            "pokemonName": "Houndor",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Kyue55"
+        },
+        {
+            "pokemonName": "Suicune",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Kyue55"
+        },
+        {
+            "pokemonName": "Raikou",
+            "numberOfPokemon": "2",
+            "ownerOfPokemon": "Kyue55"
+        },
+        {
+            "pokemonName": "Entei",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Kyue55"
+        },
+        {
+            "pokemonName": "Torchic",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Kyue55"
+        },
+        {
+            "pokemonName": "Treecko",
+            "numberOfPokemon": "2",
+            "ownerOfPokemon": "Kyue55"
+        },
+        {
+            "pokemonName": "Sceptile",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Kyue55"
+        },
+        {
+            "pokemonName": "Mudkip",
+            "numberOfPokemon": "10",
+            "ownerOfPokemon": "Kyue55"
+        },
+        {
+            "pokemonName": "Swampert",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Kyue55"
+        },
+        {
+            "pokemonName": "Poochyena",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Kyue55"
+        },
+        {
+            "pokemonName": "Linoone",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Kyue55"
+        },
+        {
+            "pokemonName": "Lotad",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Kyue55"
+        },
+        {
+            "pokemonName": "Ralts",
+            "numberOfPokemon": "5",
+            "ownerOfPokemon": "Kyue55"
+        },
+        {
+            "pokemonName": "Gardevoir",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Kyue55"
+        },
+        {
+            "pokemonName": "Slaking",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Kyue55"
+        },
+        {
+            "pokemonName": "Makuhita",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Kyue55"
+        },
+        {
+            "pokemonName": "Hariyama",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Kyue55"
+        },
+        {
+            "pokemonName": "Sableye",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Kyue55"
+        },
+        {
+            "pokemonName": "Aaron",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Kyue55"
+        },
+        {
+            "pokemonName": "Meditite",
+            "numberOfPokemon": "2",
+            "ownerOfPokemon": "Kyue55"
+        },
+        {
+            "pokemonName": "Electrike",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Kyue55"
+        },
+        {
+            "pokemonName": "Volbeat",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Kyue55"
+        },
+        {
+            "pokemonName": "Illumise",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Kyue55"
+        },
+        {
+            "pokemonName": "Roselia",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Kyue55"
+        },
+        {
+            "pokemonName": "Roselia",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Kyue55"
+        },
+        {
+            "pokemonName": "Carvanha",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Kyue55"
+        },
+        {
+            "pokemonName": "Wailord",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Kyue55"
+        },
+        {
+            "pokemonName": "Trapinch",
+            "numberOfPokemon": "6",
+            "ownerOfPokemon": "Kyue55"
+        },
+        {
+            "pokemonName": "Flygon",
+            "numberOfPokemon": "5",
+            "ownerOfPokemon": "Kyue55"
+        },
+        {
+            "pokemonName": "Swablu",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Kyue55"
+        },
+        {
+            "pokemonName": "Altaria",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Kyue55"
+        },
+        {
+            "pokemonName": "Feebas",
+            "numberOfPokemon": "5",
+            "ownerOfPokemon": "Kyue55"
+        },
+        {
+            "pokemonName": "Milotic",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Kyue55"
+        },
+        {
+            "pokemonName": "Banette",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Kyue55"
+        },
+        {
+            "pokemonName": "Bagon",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Kyue55"
+        },
+        {
+            "pokemonName": "Salamence",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Kyue55"
+        },
+        {
+            "pokemonName": "Kyogre",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Kyue55"
+        },
+        {
+            "pokemonName": "Rayquaza",
+            "numberOfPokemon": "5",
+            "ownerOfPokemon": "Kyue55"
+        },
+        {
+            "pokemonName": "Turtwig",
+            "numberOfPokemon": "11",
+            "ownerOfPokemon": "Kyue55"
+        },
+        {
+            "pokemonName": "Torterra",
+            "numberOfPokemon": "5",
+            "ownerOfPokemon": "Kyue55"
+        },
+        {
+            "pokemonName": "Chimchar",
+            "numberOfPokemon": "9",
+            "ownerOfPokemon": "Kyue55"
+        },
+        {
+            "pokemonName": "Monferno",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Kyue55"
+        },
+        {
+            "pokemonName": "Infernape",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Kyue55"
+        },
+        {
+            "pokemonName": "Piplup",
+            "numberOfPokemon": "5",
+            "ownerOfPokemon": "Kyue55"
+        },
+        {
+            "pokemonName": "Empoleon",
+            "numberOfPokemon": "2",
+            "ownerOfPokemon": "Kyue55"
+        },
+        {
+            "pokemonName": "Ambipom",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Kyue55"
+        },
+        {
+            "pokemonName": "Mismagius",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Kyue55"
+        },
+        {
+            "pokemonName": "Rhyperior",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Kyue55"
+        },
+        {
+            "pokemonName": "Gallade",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Kyue55"
+        },
+        {
+            "pokemonName": "Darkrai",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Kyue55"
+        } 
+    ],
+    "owner": "Kyue"
+}

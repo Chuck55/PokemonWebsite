@@ -1,0 +1,231 @@
+{
+    "Shiny": [
+
+        {
+            "pokemonName": "Ekans",
+            "numberOfPokemon": "2",
+            "ownerOfPokemon": "Blackest Night"
+        },
+        {
+            "pokemonName": "Arbok",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Blackest Night"
+        },
+        {
+            "pokemonName": "Oddish",
+            "numberOfPokemon": "3",
+            "ownerOfPokemon": "Blackest Night"
+        },
+        {
+            "pokemonName": "Mankey",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Blackest Night"
+        },
+        {
+            "pokemonName": "Abra",
+            "numberOfPokemon": "17",
+            "ownerOfPokemon": "Blackest Night"
+        },
+        {
+            "pokemonName": "Kadabra",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Blackest Night"
+        },
+        {
+            "pokemonName": "Alakazam",
+            "numberOfPokemon": "5",
+            "ownerOfPokemon": "Blackest Night"
+        },
+        {
+            "pokemonName": "Shellder",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Blackest Night"
+        },
+        {
+            "pokemonName": "Rhyhorn",
+            "numberOfPokemon": "5",
+            "ownerOfPokemon": "Blackest Night"
+        },
+        {
+            "pokemonName": "Scyther",
+            "numberOfPokemon": "2",
+            "ownerOfPokemon": "Blackest Night"
+        },
+        {
+            "pokemonName": "Mewtwo",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Blackest Night"
+        },
+        {
+            "pokemonName": "Eevee",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Blackest Night"
+        },
+        {
+            "pokemonName": "Chikorita",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Blackest Night"
+        },
+        {
+            "pokemonName": "Croconaw",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Blackest Night"
+        },
+        {
+            "pokemonName": "Snubble",
+            "numberOfPokemon": "2",
+            "ownerOfPokemon": "Blackest Night"
+        },
+        {
+            "pokemonName": "Granbull",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Blackest Night"
+        },
+        {
+            "pokemonName": "Scizor",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Blackest Night"
+        },
+        {
+            "pokemonName": "Swinub",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Blackest Night"
+        },
+        {
+            "pokemonName": "Skarmory",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Blackest Night"
+        },
+        {
+            "pokemonName": "Smoochum",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Blackest Night"
+        },
+        {
+            "pokemonName": "Suicune",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Blackest Night"
+        },
+        {
+            "pokemonName": "Mudkip",
+            "numberOfPokemon": "6",
+            "ownerOfPokemon": "Blackest Night"
+        },
+        {
+            "pokemonName": "Swampert",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Blackest Night"
+        },
+        {
+            "pokemonName": "Ralts",
+            "numberOfPokemon": "8",
+            "ownerOfPokemon": "Blackest Night"
+        },
+        {
+            "pokemonName": "Kirlia",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Blackest Night"
+        },
+        {
+            "pokemonName": "Gardevoir",
+            "numberOfPokemon": "2",
+            "ownerOfPokemon": "Blackest Night"
+        },
+        {
+            "pokemonName": "Slakoth",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Blackest Night"
+        },
+        {
+            "pokemonName": "Spinda",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Blackest Night"
+        },
+        {
+            "pokemonName": "Trapinch",
+            "numberOfPokemon": "3",
+            "ownerOfPokemon": "Blackest Night"
+        },
+        {
+            "pokemonName": "Flygon",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Blackest Night"
+        },
+        {
+            "pokemonName": "Swablu",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Blackest Night"
+        },
+        {
+            "pokemonName": "Barboach",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Blackest Night"
+        },
+        {
+            "pokemonName": "Shuppet",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Blackest Night"
+        },
+        {
+            "pokemonName": "Bagon",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Blackest Night"
+        },
+        {
+            "pokemonName": "Latias",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Blackest Night"
+        },
+        {
+            "pokemonName": "Turtwig",
+            "numberOfPokemon": "5",
+            "ownerOfPokemon": "Blackest Night"
+        },
+        {
+            "pokemonName": "Torterra",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Blackest Night"
+        },
+        {
+            "pokemonName": "Chimchar",
+            "numberOfPokemon": "2",
+            "ownerOfPokemon": "Blackest Night"
+        },
+        {
+            "pokemonName": "Infernape",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Blackest Night"
+        },
+        {
+            "pokemonName": "Empoleon",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Blackest Night"
+        },
+        {
+            "pokemonName": "Honchkrow",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Blackest Night"
+        },
+        {
+            "pokemonName": "Croagunk",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Blackest Night"
+        },
+        {
+            "pokemonName": "Rhyperior",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Blackest Night"
+        },
+        {
+            "pokemonName": "Darkrai",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Blackest Night"
+        },
+        {
+            "pokemonName": "Virizion",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "Blackest Night"
+        }
+    ],
+    "owner": "BlackestNight"
+}

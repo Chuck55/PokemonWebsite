@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Guessing Game </title>
+	<meta charset="UTF-8">	
+	<link rel="stylesheet" type="text/css" href="/src/stylesPages.css">
+    <link rel="stylesheet" type="text/css" href="/src/dropdown.css">
+    <script src="/scrollbar.js"> </script>
+</head>
+
+<body class = background_color>
+    <div id = "navbar" class = "main_header" > Guessing Game
+        <table class = "top_table" align = "center">
+            <thead>
+                <th><a class = "link_styles" href="/MainPage">Main Page</a></th>
+                <th><div class = "dropdown">
+                    <button class="dropbtn_link font">Pokemon</button>
+                    <div class="dropdown-content_link font">
+                    <a href="/PokemonList">Excellents</a>
+                    <a href="/ShinyList">Shinies</a>
+                    <a href="/100IV">100IV</a>
+                    </div>
+                </div>
+                </th>
+                <th>
+                    <div class="dropdown">
+                    <button class="dropbtn_link font">Other</button>
+                    <div class="dropdown-content_link font">
+                        <a href="/logout">Logout</a>
+                        <a href="/aboutMe">About Me</a>
+                        <a href="/guessing">Guessing Game</a>
+                    </div>
+                    </div>
+                </th>
+                <th><a class = "link_styles" href="/communityDays">Community Day Events</a></th>
+            </thead>
+        </table>   
+    </div>
+  
+      <div id = "numbercorrect" class = "content"></div>
+      <div class = "guessingDiv">
+        <div id = "correctSubmission" class = "correct_green submissionFormat">You Got it Right!!</div>
+        <div id = "wrongname" class = "error_red submissionFormat ">You Got it Wrong!!</div>
+        <div id = "hintpartialname" class = "hint_blue submissionFormat"></div>
+        <img src="" alt="pokemon_pic" id = "pokemonpic">
+        <input type="text" id="guess" name="Guess"><br><br>
+        <div class = "guessingDiv">
+            <button class = "guessing_link_styles"  id = "hintweb" onclick="location.href='https://bulobapedia.bulbagarden.net/wiki/Mudkip_(Pok%C3%A9mn)';">Hint1</button>
+            <br><br>
+            <button class = "guessing_link_styles" id = "hint_name" onclick = "getHint()"> Hint2 </button>
+        </div>
+            <br><br>
+        <button id = "submitbutton" type = "button" class = "guessing_link_styles" onclick = "guessName(guess.value)"> Submit </button>
+    </div>
+    <div class = "ending_page">
+        <div class = "social_media_links">
+          <a href="https://github.com/Chuck55" target="_blank"> <img id = "github" alt = "github" src = "../pictures/github-logo.png"  class = "social_media_pics"> </a>
+          <a href="https://www.linkedin.com/in/kyle-meng-2757b7192/" target="_blank"> <img id = "Linkedin" alt = "Linkedin" src = "../pictures/Linkedin.jfif"  class = "social_media_pics"> </a>
+          <a href="https://www.facebook.com/kyle.meng.378/" target="_blank"> <img id = "facebook" alt = "facebook" src = "../pictures/Facebook_icon.png"  class = "social_media_pics"> </a>
+        </div>
+        <div>
+            ©2020 Kyle Meng. All Rights Reserved
+          </div>
+      </div>
+</body>
+<script>
+    var Pksnd = new Audio("../Audio/PikachuSound.mp3");
+    var Fogsnd = new Audio("../Audio/Foghorn.mp3");
+
+    var pokemonName;
+    var numberCorrect = 0;
+    var pokemon = ["Bisharp", "Boldore", "Cranidos", "Electrode", "Elektrik", "Elektross",
+                "Ferroseed", "Ferrothorn", "Geodude", "Gigalith", "Golem", "Graveler", "Krokorok", 
+                "Krookodile", "Magnemite", "Magneton", "Magnezone", "Nidoking", "Nidoqueen", "Nidoran", "Nidoran-f", "Nidorino",
+                "Pawniard", "Rampardos", "Roggenrola", "Sandile", "Sawk", "Throh", "Tynamo", "Voltorb", 
+                "Wobuffet", "Wynaut", "Yanma", "Yanmega", "Seedot", "Nuzleaf", "Shiftry", "Mudkip", "Marshtomp", "Swampert", 
+                "Ralts", "Kirlia", "Gardevoir", "Gallade",
+                "Turtwig", "Grotle", "Torterra", "Chimchar", "Monferno", "Infernape", "Piplup", "Prinplup", "Empoleon", 
+                "Trapinch", "Vibrava", "Flygon", "Abra", "Kadabra", "Alakazam"];
+
+    getNewPokemon();
+    var pokemonFile = "../guessingGamePics/Shiny" + pokemonName + ".png";
+    changeHintWeb(pokemonName);
+    changePic(pokemonFile);
+    changePokemonNumber();
+
+    function guessName(name) {
+        console.log(pokemonName);
+        if (name == pokemonName) {
+            Pksnd.currentTime=1;
+            Pksnd.play();
+            getNewPokemon();
+            var pokemonFile = "../guessingGamePics/Shiny" + pokemonName + ".png";
+            numberCorrect = numberCorrect + 1;
+            changeDisplayCorrect(pokemonName, pokemonFile);
+        } else {
+            Fogsnd.currentTime = 0;
+            Fogsnd.play();
+            document.getElementById("correctSubmission").style.display = "none";
+            document.getElementById("wrongname").style.display = "block";
+        }
+    }
+
+    function getHint() {
+        document.getElementById("hintpartialname").innerHTML = "Hint : " + pokemonName.substring(0,pokemonName.length/2) + "....";
+        document.getElementById("hintpartialname").style.display = "block";
+    }
+    
+    function changeDisplayCorrect(chosenPokemon, pokemonFile) {
+        changePic(pokemonFile);
+        changePokemonNumber();
+        changeHintWeb(pokemonName);
+        document.getElementById("correctSubmission").style.display = "block";
+        document.getElementById("wrongname").style.display = "none";
+        document.getElementById("hintpartialname").style.display = "none";
+        document.getElementById("guess").value = "";
+    }
+    function changePokemonNumber() {
+        document.getElementById("numbercorrect").innerHTML = "Number Correct : " + numberCorrect;
+    }
+    function changePic(pokemonFile){
+        document.getElementById("pokemonpic").src = pokemonFile;
+    }
+    function changeHintWeb(selectedPokemon){
+        console.log( document.getElementById("hintweb").onclick);
+        document.getElementById("hintweb").onclick = function (){window.open('https://bulbapedia.bulbagarden.net/wiki/'+ selectedPokemon + '_(Pok%C3%A9mon)')};
+
+    }
+    function getNewPokemon() {
+        pokemonName = pokemon[Math.floor(Math.random() * pokemon.length)];
+    }
+</script>
+</html>

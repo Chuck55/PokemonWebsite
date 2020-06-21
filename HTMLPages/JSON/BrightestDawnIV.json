@@ -1,0 +1,20 @@
+{
+    "IV": [
+        {
+            "pokemonName": "Totodile",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "BrightestDawn"
+        },
+        {
+            "pokemonName": "Cloyster",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "BrightestDawn"
+        },
+        {
+            "pokemonName": "Machop",
+            "numberOfPokemon": "1",
+            "ownerOfPokemon": "BrightestDawn"
+        }
+    ],
+    "owner": "BrightestDawn"
+}
