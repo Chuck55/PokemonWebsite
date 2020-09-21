@@ -42,6 +42,8 @@ app.use(session({
 // server listens on port 9007 for incoming connections
 app.listen(9096, () => console.log('Listening on port 9096!'));
 
+
+// PAGE FUNCTIONS
 app.get('/',function(req, res) {
 	res.sendFile(__dirname + '/src/login.html');
 });
@@ -52,8 +54,7 @@ app.get('/MainPage',function(req, res) {
     res.sendFile(__dirname + '/src/MainPage.html');
   }
 });
-// // GET method route for the contact page.
-// It serves contact.html present in client folder
+
 app.get('/PokemonList',function(req, res) {
   if (!req.session.value) {
     res.redirect('/login');
@@ -62,8 +63,6 @@ app.get('/PokemonList',function(req, res) {
   }
 });
 
-// GET method route for the addContact page.
-// It serves addContact.html present in client folder
 app.get('/communityDays',function(req, res) {
   if (!req.session.value) {
     res.redirect('/login');
@@ -72,7 +71,6 @@ app.get('/communityDays',function(req, res) {
   }
 });
 
-//GET method for stock page
 app.get('/ShinyList', function (req, res) {
   if (!req.session.value) {
     res.redirect('/login');
@@ -94,8 +92,7 @@ app.get('/guessing', function (req, res) {
     res.sendFile(__dirname + '/src/guessingGame.html');
   }
 });
-// GET method route for the login page.
-// It serves login.html present in client folder
+
 app.get('/login',function(req, res) {
   if (req.session.value) {
     res.redirect('/MainPage');
@@ -110,11 +107,37 @@ app.get('/aboutMe',function(req, res) {
     res.sendFile(__dirname + '/src/aboutMe.html');
   }
 });
-
+app.get('/ShinyDatabase',function(req, res) {
+    res.sendFile(__dirname + '/src/ShinyDatabase.html');
+});
 app.get('/logoutHTML',function(req, res) {
   res.sendFile(__dirname + '/src/logout.html');
 });
+app.get('/footer',function(req, res) {
+  res.sendFile(__dirname + '/src/footer.html');
+});
+app.get('/header',function(req, res) {
+  res.sendFile(__dirname + '/src/header.html');
+});
+app.get('logoutHTML', function(req, res) {
+  res.sendFile(__dirname + '/src/logout.html');
+});
 
+//Page details, js, css
+app.get('/stylesPages', function(req, res) {
+  res.sendFile(__dirname + '/src/stylesPages.css');
+});
+app.get('/scrollbar.js' ,function(req, res) {
+  res.sendFile(__dirname + '/src/scrollbar.js');
+});
+
+app.get('/googleLogin.js' ,function(req, res) {
+  res.sendFile(__dirname + '/src/googleLogin.js');
+});
+
+
+
+// Supporting functions, retrieving JSON
 app.post('/getJSON',function(req, res) {
   console.log(req.body);
   if (req.body.fname == "KyueShiny") {
@@ -147,6 +170,39 @@ app.post('/getJSON',function(req, res) {
   });
 });
 
+// Supporting functions, retrieving SQL
+app.post('/getSQL', function (req, res) {
+   
+  var sql = require("mssql/msnodesqlv8");
+
+  // config for your database
+  var config = {
+    driver: "msnodesqlv8",
+    server: "localhost",
+    database: "PokemonGoInfo",
+    options: {
+      trustedConnection: true,
+      useUTC: true,
+      json: true
+    }
+  }
+  // connect to your database
+  sql.connect(config, function (err) {
+      if (err) console.log(err);
+      // create Request object
+      var request = new sql.Request();   
+      // query to the database and get the records
+      request.query('select * from ' + req.body.fname, function (err, recordset) {
+          if (err) console.log(err)
+          res.statusCode = 200;
+          res.setHeader('Content-type', 'text/plain');
+          res.write(JSON.stringify(recordset));
+          res.end();
+      });
+  });
+});
+
+
 app.post('/sendGoogleDetails', function(req, res){
   var sess = req.session;
   google = true;
@@ -175,9 +231,8 @@ app.post('/sendLoginDetails', function(req, res) {
 		res.end();
 	}
 });
-app.get('/stylesPages', function(req, res) {
-  res.sendFile(__dirname + '/src/stylesPages.css');
-});
+
+
 // log out of the application
 // destroy user session
 app.get('/logout', function(req, res) {
@@ -187,18 +242,6 @@ app.get('/logout', function(req, res) {
   } else {
     res.redirect('/login');
   }
-});
-
-app.get('logoutHTML', function(req, res) {
-  res.sendFile(__dirname + '/src/logout.html');
-});
-
-app.get('/scrollbar.js' ,function(req, res) {
-  res.sendFile(__dirname + '/src/scrollbar.js');
-});
-
-app.get('/googleLogin.js' ,function(req, res) {
-  res.sendFile(__dirname + '/src/googleLogin.js');
 });
 
 // middle ware to serve static files

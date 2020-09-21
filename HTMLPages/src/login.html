@@ -37,16 +37,7 @@
                     <input type="button" class = "loginForm font" value = "LOGIN" onclick = "getStuff(uname.value, psw.value)">
         </form>
         <div class="g-signin2" data-onsuccess="onSignIn" data-theme="dark"></div>
-        <div class = "ending_page">
-            <div class = "social_media_links">
-              <a href="https://github.com/Chuck55" target="_blank"> <img id = "github" alt = "github" src = "../pictures/github-logo.png"  class = "social_media_pics"> </a>
-              <a href="https://www.linkedin.com/in/kyle-meng-2757b7192/" target="_blank"> <img id = "Linkedin" alt = "Linkedin" src = "../pictures/Linkedin.jfif"  class = "social_media_pics"> </a>
-              <a href="https://www.facebook.com/kyle.meng.378/" target="_blank"> <img id = "facebook" alt = "facebook" src = "../pictures/Facebook_icon.png"  class = "social_media_pics"> </a>
-            </div>
-            <div>
-                ©2020 Kyle Meng. All Rights Reserved
-            </div>
-          </div>
+        <div id="footer"></div>
         <script type="text/javascript">
             var xhttp = new XMLHttpRequest();
             xhttp.onreadystatechange = function() {
@@ -84,6 +75,17 @@
                     xhttp.send(JSON.stringify({Username: name, Password: password}));
                 }	
             }
+        </script>
+        <script
+        src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous">
+        </script>
+        <script>
+        $(function(){
+            $("#footer").load("footer"); 
+            $("#header").load("header"); 
+        });
         </script>
     </body>
 </html>
