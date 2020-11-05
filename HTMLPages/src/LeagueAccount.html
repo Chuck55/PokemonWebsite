@@ -1,0 +1,40 @@
+<html>
+<head>
+  <title> League Account </title>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"> </script>
+<link rel="stylesheet" type="text/css" href="/src/stylesPages.css">
+<link rel="stylesheet" type="text/css" href="/src/dropdown.css">
+<script src="/scrollbar.js"> </script>
+
+<script type="text/javascript">
+  function GetData() {
+    var xhttp = new XMLHttpRequest();
+    xhttp.onreadystatechange = function() {
+
+    };
+    xhttp.open("POST", "/getLeagueMatches", true);
+    xhttp.send();
+
+  }
+  GetData();
+</script>
+</head>
+  <body class = "background_color">
+    <div id = "navbar" class = "main_header font">League Account
+      <div id="header"></div>
+    </div>
+  
+    <div id="footer"></div>
+</body>
+<script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous">
+</script>
+<script>
+  $(function(){
+    $("#footer").load("footer"); 
+    $("#header").load("header"); 
+  });
+</script>
+</html>

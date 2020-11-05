@@ -9,6 +9,8 @@ var app = express();
 // helps in extracting the body portion of an incoming request stream
 var bodyparser = require('body-parser');
 
+const request = require('request');
+
 // fs module - provides an API for interacting with the file system
 var fs = require("fs");
 
@@ -92,7 +94,20 @@ app.get('/guessing', function (req, res) {
     res.sendFile(__dirname + '/src/guessingGame.html');
   }
 });
-
+app.get('/HamelGuide',function(req, res) {
+  if (!req.session.value) {
+    res.redirect('/login');
+  } else {
+    res.sendFile(__dirname + '/src/HamelGuide.html');
+  }
+});
+app.get('/UOFM',function(req, res) {
+  if (!req.session.value) {
+    res.redirect('/login');
+  } else {
+    res.sendFile(__dirname + '/src/UniversityOfMinnesotaGuide.html');
+  }
+});
 app.get('/login',function(req, res) {
   if (req.session.value) {
     res.redirect('/MainPage');
@@ -107,6 +122,10 @@ app.get('/aboutMe',function(req, res) {
     res.sendFile(__dirname + '/src/aboutMe.html');
   }
 });
+app.get('/LeagueAccount',function(req, res) {
+
+    res.sendFile(__dirname + '/src/LeagueAccount.html');
+});
 app.get('/ShinyDatabase',function(req, res) {
     res.sendFile(__dirname + '/src/ShinyDatabase.html');
 });
@@ -117,6 +136,12 @@ app.get('/footer',function(req, res) {
   res.sendFile(__dirname + '/src/footer.html');
 });
 app.get('/header',function(req, res) {
+  res.sendFile(__dirname + '/src/header.html');
+});
+app.get('/src/footer',function(req, res) {
+  res.sendFile(__dirname + '/src/footer.html');
+});
+app.get('/src/header',function(req, res) {
   res.sendFile(__dirname + '/src/header.html');
 });
 app.get('logoutHTML', function(req, res) {
@@ -135,8 +160,26 @@ app.get('/googleLogin.js' ,function(req, res) {
   res.sendFile(__dirname + '/src/googleLogin.js');
 });
 
-
-
+app.post ('/getLeagueMatches', function(req, res) {
+  var api_key = "RGAPI-7a99e894-4151-477a-adb1-26242a8d0db4";
+  var id = "Kyue55";
+  const options = {
+    url: 'https://na1.api.riotgames.com/lol/summoner/v4/summoners/by-name/'+ id,
+    method: 'GET',
+    headers: {
+        'X-Riot-Token': api_key,
+        'Accept-Language': 'en-US,en;q=0.9',
+        'Accept-Charset': 'utf-8',
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36',
+        'Accept-Charset': 'application/x-www-form-urlencoded; charset=UTF-8',
+        'Origin': 'https://developer.riotgames.com'
+    }};
+  console.log("Got Here");
+  request(options, function(err, res, body) {
+    if (err) { return console.log(err); }
+    console.log(body);
+  });
+});
 // Supporting functions, retrieving JSON
 app.post('/getJSON',function(req, res) {
   console.log(req.body);

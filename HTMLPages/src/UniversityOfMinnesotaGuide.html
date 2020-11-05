@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Pokemon Locations </title>
+	<meta charset="UTF-8">	
+	<link rel="stylesheet" type="text/css" href="/src/stylesPages.css">
+	<link rel="stylesheet" type="text/css" href="/src/dropdown.css">
+	<script src="/scrollbar.js"> </script>
+</head>
+
+<body class = "background_color">
+    <div id = "navbar" class = "main_header font">Playing Pokemon Go in Hamel
+		<div id="header"></div>
+	  </div>
+	<div class = "content">
+        <h2 style="text-align: center;">TIPS AND TRICKS TO PLAYING POKEMON GO IN HAMEL</h2>
+        <table class = "pokemon_table font"> 
+            <tr>
+                <td>
+                    <div style=" text-align: center;">
+                        <h3>The Popular Teams</h3>
+                    </div>                   
+                    <img class="guide_pics" id = "PokemonGoTeams" alt = "facebook" src = "../pictures/PokemonGoTeams.png">
+                </td>
+                <td>
+
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div style=" text-align: center;">
+                        <h3>Popular Spawn Locations</h3>
+                    </div>                   
+                    <img class="guide_pics" id = "PokemonGoTeams" alt = "facebook" src = "../pictures/PokemonSpawn.jfif">
+                </td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div style=" text-align: center;">
+                        <h3>Raid Times and Locations</h3>
+                    </div>                   
+                    <img class="Raidpic" id = "PokemonGoTeams" alt = "facebook" src = "../pictures/Raid.jfif">
+                </td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div style=" text-align: center;">
+                        <h3>Pokemon Nests</h3>
+                    </div>                   
+                    <img class="Nestpic" id = "PokemonGoTeams" alt = "facebook" src = "../pictures/Nests.jfif">
+                </td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div style=" text-align: center;">
+                        <h3>Frequent Players</h3>
+                    </div>                   
+                    <img class="Nestpic" id = "PokemonGoTeams" alt = "facebook" src = "../pictures/Nests.jfif">
+                </td>
+                <td>
+                </td>
+            </tr>
+        </table>
+
+    </div>
+	<div id="footer"></div>
+</body>
+	<script
+		src="https://code.jquery.com/jquery-3.3.1.js"
+		integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+		crossorigin="anonymous">
+	</script>
+	<script>
+		$(function(){
+			$("#footer").load("footer"); 
+			$("#header").load("header"); 
+		});
+	</script>
+</html>
