@@ -1,0 +1,24 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "dddd",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node your-script.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chuck55/PokemonWebsite.git"
+  },
+  "keywords": [
+    "ddd"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chuck55/PokemonWebsite/issues"
+  },
+  "homepage": "https://github.com/Chuck55/PokemonWebsite#readme"
+}
+
